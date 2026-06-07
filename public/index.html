@@ -27,7 +27,6 @@
   <misaliba-head />
   <script src="/assets/scripts/grid.js" defer></script>
   <script src="/assets/scripts/skill.js" defer></script>
-  <script src="/assets/scripts/contact.js" defer></script>
 </head>
 
 <body>
@@ -126,59 +125,30 @@
           </ul>
         </div>
       </section>
-      <section class="contact" id="contact" aria-labelledby="contact-heading">
-        <div class="container hero">
-          <div class="section-copy">
-            <p class="meta">04 — CONTACT</p>
-            <h2 class="intro" id="contact-heading">Find me online</h2>
-            <p class="lead">
-              Message me about projects, Discord stuff, or anything that
-              belongs somewhere between code and a questionable idea.
-            </p>
-          </div>
-
-          <ul class="contact-list" aria-label="Social links">
+      <section class="home-cta" aria-labelledby="home-cta-heading">
+        <div class="container">
+          <p class="meta">04 — CONTACT</p>
+          <h2 id="home-cta-heading">Interested in me or my work?</h2>
+          <p class="lead">
+            I am always open to talking about practical web apps, Discord tools,
+            backend ideas, or projects where clean code and a calm user
+            experience matter.
+          </p>
+          <ul class="home-cta__topics" aria-label="Contact topics">
             <li>
-              <a class="contact-card" href="https://github.com/misalibaytb" target="_blank"
-                rel="me noopener noreferrer">
-                <i class="fa-brands fa-github" aria-hidden="true"></i>
-                <span>
-                  <strong>GitHub</strong>
-                  <small>github.com/misalibaytb</small>
-                </span>
-              </a>
+              <i class="fas fa-code" aria-hidden="true"></i>
+              <span>Project ideas and collaboration</span>
             </li>
             <li>
-              <a class="contact-card" href="https://www.instagram.com/__misaliba__/"
-                rel="me noopener noreferrer nofollow">
-                <i class="fa-brands fa-instagram" aria-hidden="true"></i>
-                <span>
-                  <strong>Instagram</strong>
-                  <small>@__misaliba__</small>
-                </span>
-              </a>
+              <i class="fa-brands fa-discord" aria-hidden="true"></i>
+              <span>Discord bots and automation</span>
             </li>
             <li>
-              <a class="contact-card" href="https://discord.com/users/686582690597568520" target="_blank"
-                rel="me noopener noreferrer nofollow">
-                <i class="fa-brands fa-discord" aria-hidden="true"></i>
-                <span>
-                  <strong>Discord</strong>
-                  <small>misaliba</small>
-                </span>
-              </a>
-            </li>
-            <li>
-              <a class="contact-card" href="#" data-contact-mail data-contact-user="btyabilasim"
-                data-contact-domain="moc.liamg">
-                <i class="fa-solid fa-envelope" aria-hidden="true"></i>
-                <span>
-                  <strong>Email</strong>
-                  <small>misalibaytb [at] gmail [dot] com</small>
-                </span>
-              </a>
+              <i class="fas fa-layer-group" aria-hidden="true"></i>
+              <span>Frontend, backend, and architecture</span>
             </li>
           </ul>
+          <misaliba-button icon="far fa-envelope" text="Contact me!" href="/contact" />
         </div>
       </section>
     </main>
