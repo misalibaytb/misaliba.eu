@@ -40,7 +40,7 @@ jobs:
       - name: Install dependencies
         run: bun install --frozen-lockfile
       - name: Build site
-        run: bun ./compile.ts build --site-url=https://misaliba.gambaaa.fun
+        run: bun ./compile.ts build --site-url=https://misaliba.eu
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
