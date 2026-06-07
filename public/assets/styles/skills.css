@@ -4,21 +4,35 @@
   }
 
   .skills-techstack .hero {
+    display: grid;
     min-height: 100vh;
     max-width: 620px;
   }
 
   .skills-techstack__intro {
     width: 100%;
+    display: contents;
+  }
+
+  .skills-techstack__intro .meta,
+  .skills-techstack__intro .intro,
+  .skills-techstack__intro .lead {
+    order: 1;
   }
 
   .skills-techstack .techstack-skills-list {
     display: grid;
     gap: 1rem;
+    order: 2;
     width: 100%;
     margin: 2rem 0;
     padding: 0;
     list-style: none;
+  }
+
+  .skills-techstack__intro misaliba-button,
+  .skills-techstack__intro .button {
+    order: 3;
   }
 
   @media screen and (min-width: 900px) {
@@ -55,8 +69,6 @@
 
     .skills-techstack .button {
       justify-self: start;
-      grid-column: 1;
-      grid-row: 2;
       margin-inline: 0;
     }
 
